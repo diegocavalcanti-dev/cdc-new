@@ -1,0 +1,10 @@
+				@font-face {
+					font-family: 'public';
+					src: url('./1623Public.woff2') format('woff2'),
+						url('./1623Public.woff') format('woff');
+					font-display: auto;
+				}
+
+				.public{font-family: 'public' !important;}
+
+		
