@@ -1,0 +1,183 @@
+/*
+Theme Name: CoverStory
+Theme URI: https://afthemes.com/products/coverstory/
+Author: AF themes
+Author URI: https://afthemes.com
+Requires PHP: 5.6
+Tested up to: 6.6
+Description:  CoverStory is a child theme of CoverNews. The theme has new header and banner design as well as some significant fonts and color configuration adjustments. In addition, the design also modified some of the default nature of the front page layout. You can implement layouts as a clean and minimal blogging site, a vintage and retro fashion blog, a photography blog, a wedding blog & magazine and more with the help of the available customizer options.. The theme is SEO friendly with optimized code and awesome support.
+See Demo: https://demo.afthemes.com/covernews/coverstory/
+Support: https://afthemes.com/supports/
+Template: covernews
+Version: 2.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: coverstory
+Tags: news, blog, entertainment, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-menu, featured-images, full-width-template, custom-header, translation-ready, theme-options, threaded-comments
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+CoverStory WordPress Theme, Copyright 2018 AF themes
+CoverStory is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body .main-navigation a,
+body .font-family-1,
+body .site-description,
+body .trending-posts-line,
+body .widget-title,
+body .em-widget-subtitle,
+body .grid-item-metadata .item-metadata,
+body .af-navcontrols .slide-count,
+body .figure-categories .cat-links,
+body .nav-links a {
+font-family: 'Merriweather Sans';
+}
+
+body .figure-categories .cat-links a.covernews-categories,
+body .full-plus-list .spotlight-post:first-of-type .figure-categories .cat-links a.covernews-categories
+{
+    background-color: #505c67;
+    color: #ffffff;
+    
+}
+
+.covernews_tabbed_posts_widget .figure-categories .cat-links a.covernews-categories, 
+.list .spotlight-post .figure-categories .cat-links a.covernews-categories, 
+.full-plus-list .spotlight-post .figure-categories .cat-links a.covernews-categories, 
+.trending-posts-vertical-carousel .figure-categories .cat-links a.covernews-categories, 
+.trending-story .figure-categories .cat-links a.covernews-categories{
+color: #505c67;
+}
+
+/*af0000*/
+
+body .figure-categories .cat-links a.category-color-2,
+body .full-plus-list .spotlight-post:first-of-type .figure-categories .cat-links a.covernews-categories.category-color-2
+{
+	background-color: #C50105;
+	color: #ffffff;
+    
+}
+
+
+.trending-story .figure-categories .cat-links a.covernews-categories.category-color-2, 
+.list .spotlight-post .figure-categories .cat-links a.covernews-categories.category-color-2, 
+.full-plus-list .spotlight-post .figure-categories .cat-links a.covernews-categories.category-color-2, 
+.covernews_tabbed_posts_widget .figure-categories .cat-links a.covernews-categories.category-color-2, 
+.trending-posts-vertical-carousel .figure-categories .cat-links a.covernews-categories.category-color-2{
+    color: #C50105;
+}
+
+
+
+body .figure-categories .cat-links a.category-color-3,
+body .full-plus-list .spotlight-post:first-of-type .figure-categories .cat-links a.covernews-categories.category-color-3
+{
+    background-color: #ffffff;
+    color: #404040;
+}
+
+.trending-story .figure-categories .cat-links a.covernews-categories.category-color-3, 
+.list .spotlight-post .figure-categories .cat-links a.covernews-categories.category-color-3, 
+.full-plus-list .spotlight-post .figure-categories .cat-links a.covernews-categories.category-color-3, 
+.covernews_tabbed_posts_widget .figure-categories .cat-links a.covernews-categories.category-color-3, 
+.trending-posts-vertical-carousel .figure-categories .cat-links a.covernews-categories.category-color-3{
+    color: #404040;
+}
+
+
+body .top-masthead {
+    background: #111111;
+}
+
+/*6A5550*/
+
+body span.menu-description{
+        background: #505c67;
+}
+
+
+
+/*Header layout 3*/
+.header-layout-3 .masthead-banner .site-branding {
+    text-align: center;
+}
+
+
+body .secondary-color,
+body button,
+body input[type="button"],
+body input[type="reset"],
+body input[type="submit"],
+body .site-content .search-form .search-submit,
+body .site-footer .search-form .search-submit,
+body .em-post-format i,
+body span.header-after:after,
+body #secondary .widget-title span:after,
+body .af-tabs.nav-tabs > li.active > a:after,
+body .af-tabs.nav-tabs > li > a:hover:after,
+body .exclusive-posts .exclusive-now,
+body span.trending-no,
+body .tagcloud a:hover{
+        background: #505c67;
+}
+
+body .main-navigation{
+    background: #111111;
+}
+
+body a:hover,
+body a:focus,
+body a:active,
+body .figure-categories-2 .cat-links a
+{
+        color: #505c67;
+}
+
+body #loader:after {
+  border-left-color: #505c67;
+}
+
+.site-footer {
+    background: #031c27;
+    color: #fff;
+}
+
+.site-footer a, 
+.site-footer a:hover, 
+.site-footer a:visited, 
+.site-footer a:active {
+    color: #fff;
+}
+
+body .article-title{
+    font-size: 14px;
+}
+
+body .full-plus-list .spotlight-post:first-of-type figcaption .article-title,
+body .categorized-story .title-heading .article-title-2{
+    font-size: 16px;
+}
+
+body.dark .latest-posts-full .header-details-wrapper .entry-title a:hover, body.dark .entry-title a:visited:hover, body.dark .entry-title a:hover, body.dark h3.article-title.article-title-1 a:visited:hover, body.dark h3.article-title.article-title-1 a:hover, body.dark .trending-posts-carousel h3.article-title a:visited:hover, body.dark .trending-posts-carousel h3.article-title a:hover, body.dark .exclusive-slides a:visited:hover, body.dark .exclusive-slides a:hover, body.dark .article-title.article-title-1 a:visited:hover, body.dark .article-title.article-title-1 a:hover, body.dark .article-title a:visited:hover, body.dark .article-title a:hover .entry-title a:visited:hover, .entry-title a:hover, h3.article-title.article-title-1 a:visited:hover, h3.article-title.article-title-1 a:hover, .trending-posts-carousel h3.article-title a:visited:hover, .trending-posts-carousel h3.article-title a:hover, .exclusive-slides a:visited:hover, .exclusive-slides a:hover, .article-title.article-title-1 a:visited:hover, .article-title.article-title-1 a:hover, .article-title a:visited:hover, .article-title a:hover{
+    color:#505c67;
+}
+
+.af-tabs.nav-tabs > li > a.active:after{
+    background: #505c67;
+}
+
+@media only screen and (max-width: 320px){
+.main-navigation.aft-sticky-navigation span.af-mobile-site-title-wrap .site-title {
+    font-size: 26px;
+    line-height: 55px;
+    }
+}
